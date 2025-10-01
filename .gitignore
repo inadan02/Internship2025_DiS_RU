@@ -1,0 +1,15 @@
+# Ignore datasets 
+data/
+*.tar.gz
+*.zip
+# Ignore outputs
+results/
+*.pth
+*.pt
+*.tfevents
+*.log
+# Ignore caches/envs
+__pycache__/
+.venv/
+venv/
+.pytest_cache/
