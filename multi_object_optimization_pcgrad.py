@@ -1551,6 +1551,7 @@ def moo_generate(args, loader, model):
     log_rows = []
     poisons = []
     for i in range(args.num_classes):
+    #for i in range(0,3):
         poison = universal_target_attack_moo(model, loader, i, args, log_rows)
         poisons.append(poison.squeeze())
 
